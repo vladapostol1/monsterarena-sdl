@@ -524,7 +524,7 @@ void Game::update()
 		camera.x = 0;
 	if (camera.y < 0)
 		camera.y = 0;
-	if (camera.x > 480 - windowSize.x/2)
+	if (camera.x > 480)
 		camera.x = 480;
 	if (camera.y > 678)
 		camera.y = 678;
