@@ -1,0 +1,55 @@
+﻿  Game.cpp
+D:\VisualStudioProjects\MonsterArena\include\ECS\TransformComponent.h(61,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\SpriteComponent.h(137,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\TileComponent.h(24,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\TileComponent.h(25,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\TileComponent.h(38,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\TileComponent.h(39,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\GUI.h(13,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\GUI.h(14,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\GUI.h(15,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\GUI.h(16,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\GUI.h(60,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\GUI.h(61,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\GUI.h(62,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\GUI.h(63,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\PlayerInventoryComponent.h(301,28): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\VisualStudioProjects\MonsterArena\include\ECS\PlayerInventoryComponent.h(313,28): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\VisualStudioProjects\MonsterArena\include\ECS\PlayerInventoryComponent.h(376,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(68,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(69,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(70,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(71,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(72,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(498,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(520,44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(521,44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(528,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(530,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\include\ECS\ECS.h(95,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(165,65): message : see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,int,int,int,int,int>(int &&,int &&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+D:\VisualStudioProjects\MonsterArena\include\ECS\ECS.h(95,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(166,82): message : see reference to function template instantiation 'T &Entity::addComponent<SpriteComponent,const char(&)[6],float&,float&,bool>(const char (&)[6],float &,float &,bool &&)' being compiled
+          with
+          [
+              T=SpriteComponent
+          ]
+D:\VisualStudioProjects\MonsterArena\include\ECS\ECS.h(95,33): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+D:\VisualStudioProjects\MonsterArena\source\Game.cpp(168,112): message : see reference to function template instantiation 'T &Entity::addComponent<UILabel,float,float,const char(&)[5],const char(&)[11],SDL_Color&>(float &&,float &&,const char (&)[5],const char (&)[11],SDL_Color &)' being compiled
+          with
+          [
+              T=UILabel
+          ]
+  MonsterArena.vcxproj -> D:\VisualStudioProjects\MonsterArena\x64\Debug\MonsterArena.exe

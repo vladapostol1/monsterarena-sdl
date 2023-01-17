@@ -1,0 +1,2 @@
+D:\VisualStudioRepo\MonsterArena\x64\Debug\MonsterArena.exe
+D:\VisualStudioProjects\MonsterArena\x64\Debug\MonsterArena.exe

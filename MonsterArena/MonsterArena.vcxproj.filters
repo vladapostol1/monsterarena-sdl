@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ECS\ECS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AssetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\ECS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\TransformComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\SpriteComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\KeyboardController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\ColliderComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\TileComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AssetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\ProjectileComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\UILabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\StatsComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\EnemyComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\GUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\PlayerInventoryComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\LevelComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="res\map_16x16.map" />
+    <None Include="res\map_32x32.map" />
+    <None Include="SDL2_ttf.dll" />
+    <None Include="res\font.fon" />
+    <None Include="res\map_20x20.map" />
+    <None Include="SDL2_mixer.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\player\idle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player\move-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player\move-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\wall-upper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\sand-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\sand-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\sand-3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\wall-bottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\wall-c1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\wall-c2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\wall-c3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\wall-c4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\wall-left.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\wall-right.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\water.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\collider.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tiles\tiles-list.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player\player-anim.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\projectile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\player\weapons.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\e1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\e2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\e3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\start-screen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\map_32x32.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\sounds\bg-music.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
