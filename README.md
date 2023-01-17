@@ -13,3 +13,6 @@
 7. Compile and enjoy :))
 
 To change the difficulty of the game go to settings.txt and change the difficuly: (any number)
+
+![image](https://user-images.githubusercontent.com/78821791/213001032-783f1367-502c-4add-b788-ca5e313c2dfe.png)
+
