@@ -1,4 +1,6 @@
 # MONSTER ARENA made with SDL
+Faculty of Automatic Control and Computer Engineering, Iasi
+by Vlad Apostol
 Project made for OOP (Object Oriented Programming)
 
 1. To use the project you'll need to download the project files and the DevSDL folder
